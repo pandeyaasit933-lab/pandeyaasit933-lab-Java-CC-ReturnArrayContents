@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/ReturnArrayContentsTest.java",
+      "testCases": [
+        {
+          "methodName": "arrayStringTest1",
+          "label": "Verify array to string conversion with {1,2,3,4,5}",
+          "description": "Tests that the arrayToString method converts the integer array {1,2,3,4,5} to the space-separated string '1 2 3 4 5'"
+        },
+        {
+          "methodName": "arrayStringTest2",
+          "label": "Verify array to string conversion with {9,8,7}",
+          "description": "Tests that the arrayToString method converts the integer array {9,8,7} to the space-separated string '9 8 7'"
+        }
+      ]
+    }
+  ]
+}
